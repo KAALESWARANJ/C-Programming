@@ -1,10 +1,10 @@
 #include<stdio.h>
-int main(void)
+int main()
          {
-	          int a,b;
+	        int a,b;
           	scanf("%d  %d\n",&a,&b);
-	          a^=b;
-            b^=a;
-            a^=b;
-	          printf("%d  %d",a,b);
+	        a^=b;
+                b^=a;
+                a^=b;
+	        printf("%d  %d",a,b);
          }
