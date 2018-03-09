@@ -1,6 +1,6 @@
 #include <stdio.h>
  
-int main(void)
+int main()
 {
 	long int N;
 	scanf("%ld\n",&N);
